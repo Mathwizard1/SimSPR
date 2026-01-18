@@ -134,8 +134,8 @@ double OpticalFiber::Reflectance_4L(double theta_i, double wavelength, double n_
 
 	Complex delta_0 = K0 * d0 * Complex (sqrt(pow(n_0,2) - pow(n_0,2)*pow(sin(theta_i),2)));
 	Complex delta_1 = K0 * d1 * Complex (sqrt(e_1        - pow(n_0,2)*pow(sin(theta_i),2)));
-	Complex delta_2 = K0 * d1 * Complex (sqrt(pow(n_2,2) - pow(n_0,2)*pow(sin(theta_i),2)));
-	Complex delta_3 = K0 * d2 * Complex (sqrt(pow(na,2)  - pow(n_0,2)*pow(sin(theta_i),2)));
+	Complex delta_2 = K0 * d2 * Complex (sqrt(pow(n_2,2) - pow(n_0,2)*pow(sin(theta_i),2)));
+	Complex delta_3 = K0 * d3 * Complex (sqrt(pow(na,2)  - pow(n_0,2)*pow(sin(theta_i),2)));
 
 	// ***
 	// Optical Admittance (eta) as function of the polarization states
